@@ -6,7 +6,7 @@ export async function getStaticPaths() {
   const paths = [{ params: { pid: "100" } }, { params: { pid: "101" } }];
   return { paths, fallback: false };
 }
-
+//live karo hoi to getStaticProps and getStaticPaths function use karvo j...
 export async function getStaticProps(context) {
   const { pid } = context.params;
   return {
