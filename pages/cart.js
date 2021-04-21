@@ -22,7 +22,7 @@ export default function cart() {
                 <table className="table">
                   <thead>
                     <tr>
-                      <th>Imagesssss</th>
+                      <th>Images</th>
                       <th>Product Name</th>
                       <th>Price</th>
                       <th>Quantity</th>
